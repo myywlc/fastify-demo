@@ -1,0 +1,30 @@
+{
+  "name": "fastify-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm run build",
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fastify": "^3.20.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "typescript": "^4.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myywlc/fastify-demo.git"
+  },
+  "keywords": [],
+  "author": "jiangchengbiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myywlc/fastify-demo/issues"
+  },
+  "homepage": "https://github.com/myywlc/fastify-demo#readme"
+}
