@@ -13,7 +13,7 @@ interface IHeaders {
 
 
 server.get('/ping', async (request, reply) => {
-  return 'pong\n';
+  return 'pong';
 });
 
 server.get<{ Querystring: IQuerystring, Headers: IHeaders }>('/auth', {
